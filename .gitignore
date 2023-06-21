@@ -32,4 +32,4 @@
 *.app
 
 # Build F0lder
-build
+build/

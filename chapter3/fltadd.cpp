@@ -7,7 +7,7 @@ int main(void)
     float b = a + 1.0f;
 
     std::cout << "a = " << a << std::endl;
-    std::cout << "b -a = " << b - a << std::endl;
+    std::cout << "b - a = " << b - a << std::endl;
     
     return 0;
 }
