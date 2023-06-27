@@ -13,7 +13,7 @@ int main(void)
     cout << "Total cookies eaten: " << sum << endl;
     sum = sum_arr(cookies, cookies + 3);
     cout << "First three eaters ate " << sum << " cookies.\n";
-    sum = sum_arr(cookies + 4, cookies + 8); // last 4 elements
+    sum = sum_arr(cookies + 4, cookies + 8);
     cout << "Last four eaters ate " << sum << " cookies.\n";
     return 0;
 }
