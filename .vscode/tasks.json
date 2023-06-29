@@ -8,6 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                //"${fileDirname}/file2.cpp", //多文件编译时使用
                 "-I",
                 "${fileWorkspaceFolder}",
                 "-o",
