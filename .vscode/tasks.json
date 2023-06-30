@@ -8,7 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                //"${fileDirname}/file2.cpp", //多文件编译时使用
+                "${fileDirname}/mytime2.cpp", //多文件编译时使用,单文件时，把他注释掉
                 "-I",
                 "${fileWorkspaceFolder}",
                 "-o",
