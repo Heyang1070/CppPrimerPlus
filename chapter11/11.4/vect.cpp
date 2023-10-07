@@ -135,10 +135,10 @@ namespace VECTOR
     std::ostream &operator<<(std::ostream &os, const Vector &v)
     {
         if (v.mode == Vector::RECT)
-            os << "(x,y) = (" << v.x << ", " << v.y << " ) ";
+            os << "(x,y) = (" << v.x << ", " << v.y << ") ";
         else if (v.mode == Vector::POL)
         {
-            os << "(m,a) = ()" << v.mag << ", " << v.ang * Rad_to_deg << " ) ";
+            os << "(m,a) = (" << v.mag << ", " << v.ang * Rad_to_deg << ")";
         }
         else
             os << "Vector object mode is invalid";
